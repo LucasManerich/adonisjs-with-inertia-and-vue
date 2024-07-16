@@ -41,7 +41,7 @@ export default class Project extends BaseModel {
   get hasOverdueTasks() {
     if (!this.tasks) return false
 
-    const today = DateTime.local()
-    return this.tasks.some((task) => task.endDate < today && !task.isCompleted)
+    const projectEndDate = this.endDate
+    return this.tasks.some((task) => task.endDate < projectEndDate && !task.isCompleted)
   }
 }

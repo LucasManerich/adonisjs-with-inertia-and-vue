@@ -3,12 +3,13 @@
 
 import '../css/app.css'
 import 'vue-toastification/dist/index.css'
+
 import { createApp, h } from 'vue'
 import type { DefineComponent } from 'vue'
-import { createInertiaApp, router } from "@inertiajs/vue3";
+import { createInertiaApp, router } from '@inertiajs/vue3'
 import { resolvePageComponent } from '@adonisjs/inertia/helpers'
+import { HSStaticMethods, HSThemeSwitch } from 'preline'
 import Toast from 'vue-toastification'
-import { HSStaticMethods, HSThemeSwitch } from "preline";
 
 const appName = import.meta.env.VITE_APP_NAME || 'Task Manager'
 
