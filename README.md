@@ -8,6 +8,17 @@ Foi criado um gerenciador de tarefas simples, onde é possível criar projetos e
 
 ## Demonstração
 
+#### Tela Principal:
+<img src="https://github.com/LucasManerich/adonisjs-with-inertia-and-vue/blob/main/.github/1.png?raw=true" width="100%">
+
+#### Dark Mode:
+<img src="https://github.com/LucasManerich/adonisjs-with-inertia-and-vue/blob/main/.github/1.1.png?raw=true" width="100%">
+
+#### Visualização do Projeto
+<img src="https://github.com/LucasManerich/adonisjs-with-inertia-and-vue/blob/main/.github/2.png?raw=true" width="100%">
+
+#### Criação da Tarefa
+<img src="https://github.com/LucasManerich/adonisjs-with-inertia-and-vue/blob/main/.github/3.png?raw=true" width="100%">
 
 ## Instalação
 
